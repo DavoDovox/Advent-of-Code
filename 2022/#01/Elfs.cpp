@@ -15,7 +15,7 @@ int main(){
 	sums.push_back(0);
 	while(getline(input, line)){
 		if(line!=""){
-			sums.back()+=stoi(line);
+			sums.back() += stoi(line);
 		}
 		else{
 			if(sums.back()>max[2]){
